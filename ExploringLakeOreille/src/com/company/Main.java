@@ -22,7 +22,8 @@ public class Main {
         try {
             URL myURL = new URL("https://www.weatherforyou.com/reports/index.php?config=&forecast=pass&pass=archive&pands="
                     +Integer.toString(zipCode)+"&zipcode="+Integer.toString(zipCode)+"&place=&state=&country=us&county=&icao=" +
-                    "&hwvMetarIcao=&zone=&cwa=RNK&month="+Integer.toString(month)+"&day="+Integer.toString(day)+"&year="+Integer.toString(year));
+                    "&hwvMetarIcao=&zone=&cwa=RNK&month="+Integer.toString(month)+"&day="+Integer.toString(day)+"&year="
+                    +Integer.toString(year));
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
